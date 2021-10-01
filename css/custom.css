@@ -1,0 +1,23 @@
+.backgroundGradient {
+    background: rgb(107, 150, 172);
+
+    background: linear-gradient(90deg, rgb(132, 219, 245) 0%, rgb(107, 150, 172)100%);
+
+    background: -moz-linear-gradient(90deg, rgb(132, 219, 245) 0%, rgb(107, 150, 172) 100%);
+
+    background: -webkit-linear-gradient(90deg, rgb(132, 219, 245) 0%, rgb(107, 150, 172) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F5A282", endColorstr="#6A157B", GradientType=1);
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.headerFont {
+    font-family: 'Anton', sans-serif;
+}
+
+textShadow {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); 
+}
